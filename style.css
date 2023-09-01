@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    height: 75px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(18, 18, 64);
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+.right ul{
+    display: flex;
+    justify-content: center;
+}
+
+.right ul li{
+    list-style: none;
+    margin-left: 28px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(188, 188, 237);
+    font-size: 1.1rem;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:100px 0px;
+}
+
+.firstSection > div{
+    width: 31%;
+}
+
+.leftSection{
+    font-size: 2.6rem;
+    align-items: center;
+}
+
+#element{
+    color: rgb(166, 166, 234);
+}
+
+.rightSection{
+    
+}
+
+.rightSection img{
+    width: 85%;
+}
+
+.blue{
+    color:rgb(160, 84, 230)
+}
+
+main hr{
+    border: 0;
+    background-color: rgb(199, 199, 240);
+    height: 1.2px;
+    margin: 40px 50px;
+}
+
+button{
+    color: white;
+    background-color: rgb(85, 85, 194);
+    height: 40px;
+    width: 100px;
+    font-size: 0.9rem;
+    border-top-right-radius: 5px;
+}
+
+button > a{
+    text-decoration: none;
+    color: white;
+}
+
+.text-second{
+    color: lavender;
+    margin-left: 45px;
+}
+
+main h1 {
+    margin-left: 45px;
+    font-size: 2rem;
+}
+
+.outerBox{
+    height: 270px;
+    width: 100%;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 29%;
+    height: 100%;
+}
+
+.box img{
+    width: 100%;
+}
+
+.title{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+.title:hover{
+    font-size: 1.3rem;
+    color: rgb(177, 177, 211);
+}
+
+.oBox{
+    height: 550px;
+    width: 100%;
+}
+
+.iBox{
+    height:250px ;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sBox{
+    height: 100%;
+    width: 19%;
+    display: flex;
+    justify-content: center;
+}
+
+.sBox > img{
+    width: 60%;
+    height: 70%;
+}
+
+.container{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftContainer{
+    height: 100%;
+    width: 30%;
+    
+}
+
+.rightContainer{
+    height: 100%;
+    width: 50%;
+}
+
+.row1{
+    margin-top: 50px;
+    font-size: 2.5rem;
+    margin-left: 50px;
+}
+
+.row2{
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.row3{
+   margin-top: 10px;
+   margin-left: 50px;
+}
+
+.row4{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.row01 > input{
+    height: 50px;
+    margin-top: 5px;
+    width: 90%;
+    font-size: 1.1rem;
+    border-radius: 8px;
+}
+
+.row02 > input{
+    height: 50px;
+    margin-top: 25px;
+    width: 90%;
+    font-size: 1.1rem;
+    border-radius: 8px;
+}
+
+.row03 > input{
+    height: 100px;
+    margin-top: 25px;
+    width: 90%;
+    font-size: 1.1rem;
+    border-radius: 8px;
+}
+
+.row04{
+    margin-top: 25px;
+}

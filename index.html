@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Mohit's Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">Mohit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#0">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="#2">Projects</a></li>
+                    <li><a href="#3">Skills</a></li>
+                    <li><a href="#4">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="0" class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="blue">Mohit</span>
+                <div>and I am a Passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button onclick="location.href='Resume.pdf';">Resume</button>
+                    <button><a href="https://github.com/MohitKumar0001">Visit Github</a></button>
+                </div>
+                
+            </div>
+            <div class="rightSection">
+                <img src="png01.png" alt="">
+            </div>
+        </section>
+        <hr>
+
+        <section id="2" class="secondSection">
+            <span class="text-second">What I have build so far</span>
+            <h1>Projects</h1>
+
+            <div class="outerBox">
+                <div class="box">
+                    <div class="image">
+                        <img src="amazone_clone.png" alt="">
+                    </div>
+                    <div class="title">Amazon Clone</div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="portfolio_website.png" alt="">
+                    </div>
+                    <div class="title">Portfolio Website</div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="calculator.png" alt="">
+                    </div>
+                    <div class="title">Basic Calculator</div>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <section id="3" class="thirdSection">
+            <span class="text-second">What I have learnt so far</span>
+                <h1>Skills</h1>
+                <div class="oBox">
+                    <div class="iBox">
+                        <div class="sBox">
+                            <img src="c.png" alt="">
+                        </div>
+                        <div class="sBox">
+                            <img src="c++.png" alt="">
+                        </div>
+                        <div class="sBox">
+                            <img src="java.png" alt="">
+                        </div>
+                        <div class="sBox">
+                            <img src="python.png" alt="">
+                        </div>
+                    </div>
+                    <div class="iBox">
+                        <div class="sBox">
+                            <img src="html.png" alt="">
+                        </div>
+                        <div class="sBox">
+                            <img src="css.png" alt="">
+                        </div>
+                        <div class="sBox">
+                            <img src="js.png" alt="">
+                        </div>
+                        <div class="sBox">
+                            <img src="sql.png" alt="">
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <hr>
+
+        <section id="4" class="fourthSection">
+            <div class="container">
+                <div class="leftContainer">
+                    <div class="row1">
+                        Contact Me
+                    </div>
+                    <div class="row2">
+                        <i class="fa-regular fa-envelope"></i>
+                        mohitvk92@gmail.com
+                    </div>
+                    <div class="row3">
+                        <i class="fa-solid fa-square-phone"></i>
+                        9786349878
+                    </div>
+                    <div class="row4">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="rightContainer">
+                    <div class="row01">
+                        <input type="text" placeholder="Your Name" name="" id="">
+                    </div>
+                    <div class="row02">
+                        <input type="text" placeholder="Your Email" id="">
+                    </div>
+                    <div class="row03">
+                        <input type="text" placeholder="Your Message" name="" id="">
+                    </div>
+                    <div class="row04">
+                        <button>Submit</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Video Editor', '&amp; Programmer.'],
+          typeSpeed: 60,
+        });
+      </script>
+      
+</body>
+
+</html>
